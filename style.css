@@ -1,0 +1,130 @@
+/*
+Theme Name: MyTheme
+Description: Tema criado por Jean Corrêa, usando como base os princípios utilizados no tema FoundationPress, que utiliza o Zurb Foundation 5
+Version: 1.0
+Author: Jean Correa
+*/
+
+@import url("css/foundation.css");
+@import url("css/normalize.css");
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700);
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+	
+.conteudo {
+	background: #F1F1F1;
+	}
+	
+.contain-to-grid, .top-bar {
+	background-color: #2F453A;
+	}
+	
+.top-bar {
+	height: 9.2375rem;
+	}
+	
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background: #2F453A;
+	}
+	
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+	background:#2FA66C;
+	}
+	
+.logobranco {
+	margin-left:0.5em;
+	}
+	
+.logocor {
+	margin-left:0.3em;
+	margin-top:-0.35em;
+	}
+	
+.blue {
+	background-color: #0066FF;
+	}
+	
+.green {
+	background-color: #00FF66;
+	}
+	
+.purple {
+	background-color: #8800FF;
+	}
+	
+.blue, .green, .purple {
+	height: 0.5em;
+	}
+	
+.conteudo {
+	margin-top: 10.75em;
+	}
+	
+.artigo {
+	margin-top: -0.5em;
+	}
+	
+.artigo a {
+	text-decoration: none;
+	color: #333;
+	}
+	
+.artigo a img {
+	width: 40em;
+	z-index: -1;
+	}
+	
+.artigo h3, .artigo h1, .artigo h4, .more-link, .pagination-centered {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	}
+	
+.artigo h3 ul li, .artigo h1 {
+	display: table-cell;
+	position: absolute;
+	list-style: none;
+	background: #B4CFEC;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 0.125em 0.1875em;
+	}
+	
+.artigo h3 ul li {
+	margin-top: 1em;
+	font-size: 1em;
+	}
+	
+.artigo h1 {
+	margin: -2.3em 0 0 0.43em;
+	font-size: 2.5em;
+	}
+	
+.artigo h4 {
+	font-size: 0.9em;
+	position: relative;
+	text-align: right;
+	margin: -0.2em 0;
+	}
+	
+ul.pagination li a {
+	font-size: 1.3em;
+	}
+	
+ul.pagination li.current a, ul.pagination li.current button {
+	background: none repeat scroll 0% 0% #0066FF;
+	}
+	
+@media only screen and (max-width: 40em) {
+	.artigo h1 {
+		font-size: 1.4em;
+		}
+	.artigo h3 ul li {
+		font-size: 0.75em;
+		left: 2.2em;
+		}
+	.artigo h4 {
+		font-size: 0.75em;
+		}
+	}
