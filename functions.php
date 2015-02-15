@@ -10,6 +10,16 @@ register_nav_menus(array(
     'top-bar-r' => 'Right Top Bar'
 ));
 
+/** Função que habilita a sidebar */
+if ( function_exists('register_sidebar') )
+        register_sidebar(array(
+            'before_widget' => '<li id="%1$s" class="widget %2$s">',
+            'after_widget' => '</li>',
+            'before_title' => '<h1>',
+            'after_title' => '</h1>',
+            
+        ));
+
 
 /**
  * Left top bar

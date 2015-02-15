@@ -22,7 +22,9 @@
 		<?php else: ?>
 		<?php endif; ?>
 	</div><!--artigos-->
-	<div class="medium-4 green columns"></div>
+	<div class="medium-4 columns">
+		<?php get_sidebar(''); ?>
+	</div>
 </div><!--conteudo-->
 
 <?php get_footer(); ?>
