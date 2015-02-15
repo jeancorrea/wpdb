@@ -122,6 +122,34 @@ ul.pagination li.current a, ul.pagination li.current button {
 	top:0.8em;
 	left:-1em;
 }
+
+#picFundo img {
+	position:relative;
+}
+
+#picFundo h2 {
+	padding:0.5em;
+	position:absolute;
+	top:17em;
+	font: 1.1875em 'Yanone Kaffeesatz', 'Helvetica Neue', Arial, sans-serif;
+	text-align:center;
+	z-index:1;
+}
+
+span#social {
+	position:absolute;
+	top:27.5em;
+	left:1.6em;
+}
+
+span#social img {
+	width:3.5em;
+	margin:0 1em;
+}
+
+span#social a {
+	text-decoration:none;
+}
 	
 @media only screen and (max-width: 40em) {
 	.artigo h1 {
