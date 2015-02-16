@@ -116,15 +116,45 @@ ul.pagination li.current a, ul.pagination li.current button {
 	background: none repeat scroll 0% 0% #0066FF;
 	}
 
+div.sidebar {
+	margin:0;
+	padding:0;
+}
+
+div.sidebar ul li {
+	list-style:none;
+}
+
+li.banner {
+	margin-top:0.75em;
+	margin-left:-1.25em;
+	padding:0 0.5em 0 0;
+	background-color:#06c;
+}
+
+li.banner img[title="Facebook"], li.banner img[title="Twitter"], li.banner img[title="RSS Feed"] {
+	width:4em;
+}
+
+/*ul.social {
+	width:20.25em;
+	top:-5em;
+	left:-0.5em;
+	padding:0 1em 0 0.5em;
+	position:absolute;
+	z-index:9999;
+}
+
 #pic {
 	width:20.2em;
 	position:relative;
-	top:0.8em;
-	left:-1em;
+	top:0.75em;
 }
 
 #picFundo img {
 	position:relative;
+	max-width:100%;
+	height:auto;
 }
 
 #picFundo h2 {
@@ -149,7 +179,7 @@ span#social img {
 
 span#social a {
 	text-decoration:none;
-}
+}*/
 	
 @media only screen and (max-width: 40em) {
 	.artigo h1 {
