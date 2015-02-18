@@ -8,6 +8,16 @@ Author: Jean Correa
 @import url("css/foundation.css");
 @import url("css/normalize.css");
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700);
+@viewport {
+	width:device-width;
+}
+@-ms-viewport {
+	width:device-width;
+}
+@-o-viewport {
+	width:device-width;
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -125,61 +135,50 @@ div.sidebar ul li {
 	list-style:none;
 }
 
-li.banner {
+li.banner, li.social {
 	margin-top:0.75em;
 	margin-left:-1.25em;
 	padding:0 0.5em 0 0;
-	background-color:#06c;
 }
 
-li.banner img[title="Facebook"], li.banner img[title="Twitter"], li.banner img[title="RSS Feed"] {
-	width:4em;
-}
-
-/*ul.social {
-	width:20.25em;
-	top:-5em;
-	left:-0.5em;
-	padding:0 1em 0 0.5em;
-	position:absolute;
-	z-index:9999;
-}
-
-#pic {
-	width:20.2em;
-	position:relative;
-	top:0.75em;
-}
-
-#picFundo img {
-	position:relative;
+li.widget h1 {
+	font-family: 'Yanone Kaffeesatz', 'Helvetica Neue', Arial, sans-serif;
+	background-color:#B4CFEC;
 	max-width:100%;
-	height:auto;
+	margin-left:-0.5em;
+	padding-left:0.3em;
 }
 
-#picFundo h2 {
-	padding:0.5em;
-	position:absolute;
-	top:17em;
-	font: 1.1875em 'Yanone Kaffeesatz', 'Helvetica Neue', Arial, sans-serif;
-	text-align:center;
-	z-index:1;
+li.widget select {
+	max-width:90%;
 }
 
-span#social {
-	position:absolute;
-	top:27.5em;
-	left:1.6em;
+li.widget ul {
+	margin-left:-0.1em;
 }
 
-span#social img {
-	width:3.5em;
-	margin:0 1em;
-}
-
-span#social a {
+li.widget ul li a {
 	text-decoration:none;
-}*/
+	color:#2F453A;
+}
+
+li.widget select option {
+	font:1.25em 'Yanone Kaffeesatz', 'Helvetica Neue', Arial, sans-serif;
+	padding:0.3em;
+}
+
+div.clear {
+	clear:both;
+}
+
+div.footer {
+	background-color:#B4CFEC;
+	padding:0.5em;
+}
+
+div.footer_txt {
+	font:1.25em 'Yanone Kaffeesatz', 'Helvetica Neue', Arial, sans-serif;
+}
 	
 @media only screen and (max-width: 40em) {
 	.artigo h1 {
@@ -192,4 +191,7 @@ span#social a {
 	.artigo h4 {
 		font-size: 0.75em;
 		}
+	.footer_ass img {
+		width:50em;
+	}
 	}

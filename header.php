@@ -19,7 +19,7 @@
   <script src="js/vendor/modernizr.js"></script>
   <?php wp_head(); ?>
 </head>
-<body>
+<body onLoad=window.scrollTo(0,1);>
 <div class="row menubar">
 	<div class="top-bar-container fixed contain-to-grid">
             <nav class="top-bar">
