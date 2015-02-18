@@ -30,4 +30,6 @@
 	</div>
 </div><!--conteudo-->
 
+<!--Incluir botão +1: <g:plusone size="medium"></g:plusone>-->
+
 <?php get_footer(); ?>

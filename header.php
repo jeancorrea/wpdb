@@ -18,6 +18,7 @@
   <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
   <script src="js/vendor/modernizr.js"></script>
   <script src="js/script.js"></script>
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
   <?php wp_head(); ?>
 </head>
 <body onLoad=window.scrollTo(0,1);>
